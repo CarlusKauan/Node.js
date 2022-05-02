@@ -1,0 +1,25 @@
+GET http://localhost:3000/pets 
+
+### 
+
+POST http://localhost:3000/pets
+Content-Type: application/json
+
+{
+    "nome": "Mel",
+    "categoria": "Cachorro"
+}
+
+###
+
+DELETE http://localhost:3000/pets/1
+
+### 
+
+PUT http://localhost:3000/pets/1
+Content-Type: application/json
+
+{
+    "nome": "Naninha",
+    "categoria": "Gato"
+}
